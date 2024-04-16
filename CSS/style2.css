@@ -2,10 +2,10 @@
     font-family: 'SBAggroB';
     max-width: 400px;
     margin: 0 auto;
-    padding:  40px;
+    padding:  80px;
     background-color: white;
     border-radius: 5px;
-    text-align: center;
+   /* text-align: center;*/
 }
 
 
@@ -18,13 +18,15 @@
     cursor: pointer;
     font-size: 20px;
     margin: 30px;
-    width: 420px;
+    width: 350px;
     
 }
 #sms{
     margin-right: 200px;
 }
-
+label{
+    position: relative;
+}
 
 
 input[type="email"],
@@ -32,7 +34,7 @@ input[type="password"] {
     margin: 20px;
     background-color: white;
     padding: 15px;
-    width: 100%;
+    width: 80%;
     margin-bottom: 20px; 
     font-family: 'SBAggroB';
     font-size: 1em;
@@ -43,7 +45,7 @@ input[type="text"]{
     margin: 20px;
     background-color: white;
     padding: 15px;
-    width: 100%;
+    width: 80%;
     margin-bottom: 20px; 
     font-family: 'SBAggroB';
     font-size: 1em;
@@ -55,11 +57,12 @@ body {
     margin-bottom: 300px;
     width: 100%;
     height : 100%;
-    background-image: url('../.jpg');
+    background-image: url('../minipPro두번째페이지.jpg');
     background-repeat: no-repeat;
     background-position: center;
     border-bottom: 200px;
     background-size: cover;
+    backdrop-filter: blur(2px);
 }
 
 h4 {
@@ -76,11 +79,11 @@ h4 {
     font-style: normal;
 }
 
-h2 {
+h1 {
     color: black;
     text-align: center; 
     font-family: 'SBAggroB';
-    font-size: 45px;
+    font-size: 60px;
 }
 
 
