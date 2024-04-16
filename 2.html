@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style2.css">
+    <title>회원가입 창</title>
+</head>
+
+<body>
+    <h2>회원 가입</h2>
+    <h4>Start Your World!</h4>
+
+    <div class="container">
+        <form>
+            <div>
+                <input type="text" placeholder="대한민국" list="contries" />
+                <datalist id="contries">
+                    <option>대한민국</option>
+                    <option>미국</option>
+                    <option>영국</option>
+                    <option>프랑스</option>
+                    <option>독일</option>
+                    <option>캐나다</option>
+                    <option>러시아</option>
+                </datalist>
+            </div>
+            <div>
+                <input type="email" id="email" name="email" placeholder="이메일을 입력해주세요." required>
+            </div>
+            <div>
+                <input type="password" id="password" name="password" placeholder="비밀번호를 입력해주세요." required>
+            </div>
+            <div>
+                <input type="password" id="password" name="password" placeholder="비밀번호 확인." required>
+            </div>
+            <div>
+                <label id="sms"><input  type="checkbox" value="ok">SMS 수신 동의</label>
+            </div>
+            <div class="signUp">
+                <button onclick="signUpCheck()">회원 가입</button>
+            </div>
+        </form>
+    </div>
+    
+s
+
+</body>
+
+</html>

@@ -1,12 +1,13 @@
 body { 
     margin-top: 400px;
     margin-bottom: 600px;
-    weight : 100%;
+    width : 100%;
     height : 100%;
     background-image: url('../miniPro첫 페이지.jpg');
     background-repeat: no-repeat;
     background-position: center;
     border-bottom: 200px;
+    background-size: cover;
     
 }
 
