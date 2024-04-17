@@ -9,6 +9,40 @@
 }
 
 
+.member-footer {
+    font-family: 'SBAggroB';
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.member-footer div a:hover{
+    text-decoration: underline;
+    color:peachpuff;
+}
+
+.member-footer div a:after{
+    content:'|';
+    font-size: 30px;
+    color:#bbb;
+    margin-right: 2px;
+    margin-left: 5px;
+    /*살짝 내려가 있기 때문에 위로 올려주기 위해 transform 사용하기*/
+    display: inline-block;
+    transform: translateY(-1px);
+
+}
+
+.member-footer div a:last-child:after{
+    display: none;
+}
+
+@media (max-width:768px) {
+    .member{
+        width: 100%;
+    }
+}
+
 .signUp button{
     padding: 12px 100px;
     background-color: rgb(44, 62, 80);

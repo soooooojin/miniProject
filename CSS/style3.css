@@ -2,13 +2,18 @@
     font-family: 'SBAggroB';
     max-width: 600px;
     margin: 0 auto;
+    height: 500px;
     padding:  40px;
-    background-color: rgb(255, 255, 255, 0.5) ; 
+    background-color: rgb(255, 255, 255, 0.3) ; 
     border-radius: 60px;
     text-align: center; 
 }
 
-.signUp button {
+a[href] { 
+    color:white;		 
+   }
+
+li {
     padding: 12px 100px;
     background-color: rgb(44, 62, 80);
     color: #fff;
@@ -17,11 +22,14 @@
     cursor: pointer;
     font-size: 20px;
     margin: 30px;
-    width: 350px;
+    margin-left: 50px;
+    width: 300px;
+    list-style:none;
 }
 
 label{
-    margin-right: 250px;
+    position: relative;
+    margin-right: 400px;
 }
 
 input[type="email"],

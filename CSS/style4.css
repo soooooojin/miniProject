@@ -1,0 +1,97 @@
+.chat-container {
+    position: absolute;
+    max-width: 600px; 
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 450px;
+    margin-top: 10px;
+    background-color: white; 
+    top: 280px;
+    right: 300px;
+}
+
+.chat-messages {
+    padding: 10px;
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.chat-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.chat-input:focus {
+    outline: none;
+}
+
+
+.my_b {
+    width: 1000px;
+}
+
+
+li {
+    font-family: 'SBAggroB';
+    font-size: 30px;
+    background-color: rgb(94, 94, 94);
+    color: white;
+    border: 5px solid rgb(44, 62, 80);
+    border-radius: 20px; 
+    box-shadow: #F0F8FF 5px 5px 5px;
+    text-align: center;
+    padding: 0px 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 500px;
+    height: 30px;
+    /* position: absolute; */
+    list-style:none; 
+    /* top: 800px;
+    left: 200px;   */
+}
+
+a[href] { 
+    color:white;
+    text-decoration-line: none;	  	 
+}
+
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    /* position: absolute; */
+    top: 200px;
+    left: 200px;
+    text-align: center;
+    color: #082567;  /* 원래 색rgb(52, 73, 94); */
+    margin: 100px;
+    /* margin-top: 200px;
+    margin-left: 550px; */
+    font-size: 80px;
+    font-family: 'SBAggroB';
+    text-shadow: 4px 10px 4PX #F0F8FF; 
+}  
+
+body {  
+    background-image: url('../miniPro첫 페이지.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    min-height:100vh;
+    background-position: center;
+    
+}

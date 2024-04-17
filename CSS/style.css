@@ -1,14 +1,12 @@
-body { 
-    margin-top: 400px;
-    margin-bottom: 600px;
-    width : 100%;
-    height : 100%;
+body {  
     background-image: url('../miniPro첫 페이지.jpg');
     background-repeat: no-repeat;
-    background-position: center;
-    border-bottom: 200px;
-    background-size: cover;
-    
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background-position: center;   
 }
 
 @font-face {
@@ -19,6 +17,7 @@ body {
 }
 
 .my_btn1 {
+    font-family: 'SBAggroB';
     font-size: 30px;
     background-color: rgb(94, 94, 94);
     color: white;
@@ -29,11 +28,14 @@ body {
     padding: 0px 100px;
     margin-bottom: 100px;
     margin-top: 100px;
-    position: absolute;
+    position: fixed;
     left: 500px;
     bottom: 300px;
+    cursor: pointer;
+    
 }
 .my_btn2 {
+    font-family: 'SBAggroB';
     font-size: 30px;
     background-color: rgb(94, 94, 94);
     color: white;
@@ -44,17 +46,22 @@ body {
     padding: 0px 100px;
     margin-bottom: 100px;
     margin-top: 100px;
-    position: absolute;
+    position: fixed;
     right: 500px;
     bottom: 300px;
+    cursor: pointer;     
 }
 
 h1 {
     color: #082567;  /* 원래 색rgb(52, 73, 94); */
     text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 200px;
     margin: 50px;
-    font-size: 80px;
+    font-size: 8vh;
     font-family: 'SBAggroB';
     text-shadow: 4px 10px 4PX #F0F8FF; 
+    position: fixed;
 }  
 
