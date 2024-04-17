@@ -9,6 +9,10 @@
     text-align: center; 
 }
 
+a{
+    cursor: pointer;
+}
+
 a[href] { 
     color:white;		 
    }
