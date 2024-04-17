@@ -2,7 +2,7 @@
     position: absolute;
     max-width: 600px; 
     margin: 20px;
-    border: 1px solid #ccc;
+    border: 3px solid #8fd2ff;
     border-radius: 5px;
     overflow: hidden;
     width: 450px;
@@ -33,6 +33,7 @@
 
 .my_b {
     width: 1000px;
+
 }
 
 
@@ -51,10 +52,11 @@ li {
     margin-left: 400px;
     width: 500px;
     height: 30px;
+    position: flex;
     /* position: absolute; */
-    list-style:none; 
     /* top: 800px;
     left: 200px;   */
+    list-style:none; 
 }
 
 a[href] { 
@@ -72,16 +74,17 @@ a[href] {
 
 h1 {
     /* position: absolute; */
-    top: 200px;
-    left: 200px;
+    /* top: 200px;
+    left: 200px; */
     text-align: center;
     color: #082567;  /* 원래 색rgb(52, 73, 94); */
     margin: 100px;
     /* margin-top: 200px;
     margin-left: 550px; */
-    font-size: 80px;
+    font-size: 8vh;
     font-family: 'SBAggroB';
     text-shadow: 4px 10px 4PX #F0F8FF; 
+    position: flex;
 }  
 
 body {  
@@ -92,6 +95,6 @@ body {
     /* justify-content: center; */
     /* align-items: center; */
     min-height:100vh;
-    background-position: center;
-    
+    background-position: center;  
+    flex-direction: column;
 }
