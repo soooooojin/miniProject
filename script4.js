@@ -2,6 +2,7 @@
 const chatInput = document.getElementById('chat-input');
 const chatMessages = document.getElementById('chat-messages');
 
+
 // 채팅 입력란에서 Enter 키를 누르면 sendMessage 함수 호출
 chatInput.addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {

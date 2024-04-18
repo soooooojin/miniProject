@@ -2,17 +2,17 @@
     font-family: 'SBAggroB';
     max-width: 400px;
     margin: 0 auto;
-    padding:  80px;
+    padding:  70px;
     background-color: white;
     border-radius: 5px;
-   /* text-align: center;*/
-    
+    /* text-align: center;*/
+    /* width: 500px;
+    height: 500px; */
 }
 
 a{
     cursor: pointer;
 }
-
 
 .member-footer {
     font-family: 'SBAggroB';
@@ -24,6 +24,10 @@ a{
 .member-footer div a:hover{
     text-decoration: underline;
     color:peachpuff;
+}
+
+.member-footer a {
+    color: #fff;
 }
 
 .member-footer div a:after{

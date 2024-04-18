@@ -1,15 +1,17 @@
 .chat-container {
-    position: absolute;
+    position: absolute; 
+    top: 180px;
+    bottom: 180px;
+    left: 1120px;
+    background-size: cover;
     max-width: 600px; 
+    height: 400px;
     margin: 20px;
     border: 3px solid #8fd2ff;
     border-radius: 5px;
     overflow: hidden;
     width: 450px;
-    margin-top: 10px;
     background-color: white; 
-    top: 280px;
-    right: 300px;
 }
 
 .chat-messages {
@@ -47,12 +49,11 @@ li {
     box-shadow: #F0F8FF 5px 5px 5px;
     text-align: center;
     padding: 0px 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 50px;
     margin-left: 400px;
     width: 500px;
     height: 30px;
-    position: flex;
     /* position: absolute; */
     /* top: 800px;
     left: 200px;   */
@@ -84,7 +85,9 @@ h1 {
     font-size: 8vh;
     font-family: 'SBAggroB';
     text-shadow: 4px 10px 4PX #F0F8FF; 
-    position: flex;
+    /* position: flex; */
+    margin-top: 50px;
+    top: 300px;
 }  
 
 body {  
